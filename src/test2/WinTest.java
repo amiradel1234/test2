@@ -11,6 +11,7 @@ public class WinTest extends JFrame {
 	public WinTest() {
 		add(new JButton("AAA"));
 		add(new JButton("BBB"), BorderLayout.SOUTH);
+		add(new JButton("CCC"), BorderLayout.NORTH);
 		pack();
 		setLocationRelativeTo(null);
 	}
